@@ -25,10 +25,10 @@
 ## Pricing table challenge
 
 ### Pricing table challenge 1 output:
-![challenge1](./CSS/Cards%20or%20Tables%20challenege/screenshots/pricingTable1.png)
+![challenge1](./CSS/Pricing%20Tables%20challenege/screenshots/pricingTable1.png)
 
 ### Pricing table challenge 2 output:
-![challenge1](./CSS/Cards%20or%20Tables%20challenege/screenshots/pricingTable2.png)
+![challenge1](./CSS/Pricing%20Tables%20challenege/screenshots/pricingTable2.png)
 
 ### PRD's: 
 
