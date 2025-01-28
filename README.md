@@ -9,6 +9,7 @@
 ### Assignment 2 output:
 ![Output 2](./CSS/Assignment%202/output2.png)
 
+
 ## Landing page challenges
 
 ### Landing page challenge 1 output:
@@ -19,6 +20,15 @@
 
 ### Landing page challenge 3 output:
 ![challenge1](./CSS/Landing%20page%20challenge/screenshots/challenge%203.png)
+
+
+## Pricing table challenge
+
+### Pricing table challenge 1 output:
+![challenge1](./CSS/Cards%20or%20Tables%20challenege/screenshots/pricingTable1.png)
+
+### Pricing table challenge 2 output:
+![challenge1](./CSS/Cards%20or%20Tables%20challenege/screenshots/pricingTable2.png)
 
 ### PRD's: 
 
