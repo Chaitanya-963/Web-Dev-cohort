@@ -1,4 +1,4 @@
-# Web-Development-cohort
+# Web-Dev-cohort
 
 # CSS Challenges 
 
