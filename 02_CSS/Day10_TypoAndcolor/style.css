@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mystery+Quest&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(40, 199, 191, 1) 0%,
+    rgba(204, 47, 247, 1) 51%,
+    rgba(255, 0, 153, 1) 100%
+  );
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-family: "DM Serif Text", serif;
+  font-size: 4rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  text-align: center;
+}
+  

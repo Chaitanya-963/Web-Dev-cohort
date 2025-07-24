@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 - Tables</title>
+    <style>
+        table{
+            border-collapse: collapse; /* cancel out the space between borders */
+            width: 80%;
+            margin: 20px auto;
+        }
+        th,td{
+            border: 1px solid black;;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: orange;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tables in HTML</h2>
+    <p>Today I'm learning about tables in HTML</p>
+    <div>
+        <h1>Ninja LeaderBoard</h1>
+
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Ninja Name</th>
+                <th>Village</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Naruto Uzumaki</td>
+                <td>Leaf</td>
+                <td>980</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sasuke Uchiha</td>
+                <td>Leaf</td>
+                <td>950</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hashirama Senju</td>
+                <td>Leaf</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Madara Uchiha</td>
+                <td>Leaf</td>
+                <td>9000</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
