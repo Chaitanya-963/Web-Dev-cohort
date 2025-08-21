@@ -1,0 +1,126 @@
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+#main1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #ff3b3b55;
+  padding: 20px 40px;
+  color: black;
+  border-radius: 20px;
+}
+
+#main2 {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ff3b3b55;
+  padding: 20px 40px;
+  color: black;
+  border-radius: 20px;
+}
+
+#name {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.selection {
+  padding: 15px 5px;
+  background-color: #ffffff;
+  color: #00000055;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+#update {
+  color: #4000ff;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+#fileinp {
+  display: none;
+}
+
+#btn {
+  padding: 12px 25px;
+  background-color: #ba0000;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 8px;
+  width: 100px;
+  text-align: center;
+}
+
+#btn:hover {
+  background-color: #740000;
+}
+
+form {
+  background-color: #74000035;
+  margin: 50px;
+  border-radius: 12px;
+  padding: 40px 20px;
+  color: floralwhite;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 10px;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+}
+
+form input:last-child {
+  width: 100px;
+  background-color: #740000;
+  color: white;
+  font-weight: 600;
+  align-self: center;
+}
+
+.card {
+  width: 200px;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #555;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card p {
+  font-size: 12px;
+  margin-top: 10px;
+}
