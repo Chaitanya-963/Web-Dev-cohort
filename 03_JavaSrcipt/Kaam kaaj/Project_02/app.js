@@ -168,6 +168,10 @@ const createCard = ({ name, pic, bio }) => {
 // ✅ Render users
 const showUsers = (arr) => {
   main.innerHTML = "";
+  if (arr.length === 0) {
+    main.innerHTML = `<p class="no-user">🚫 No user found</p>`;
+    return;
+  }
   arr.forEach((user) => main.appendChild(createCard(user)));
 };
 
@@ -180,5 +184,7 @@ input.addEventListener("input", () => {
   const filtered = users.filter((user) =>
     user.name.toLowerCase().startsWith(search)
   );
-  showUsers(filtered);
+  
+    showUsers(filtered);
+  
 });
