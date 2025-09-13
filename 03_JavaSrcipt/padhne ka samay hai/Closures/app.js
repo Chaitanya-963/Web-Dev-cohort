@@ -34,3 +34,18 @@ toaster("I learned the closures");
 setTimeout(() => {
   toaster("Make the next notification with timer");
 }, 2000);
+setTimeout(() => {
+  toaster("Download Completed");
+}, 1000);
+setTimeout(() => {
+  toaster("New Message from WhatsApp");
+}, 4000);
+setTimeout(() => {
+  toaster("1 New Message");
+}, 5000);
+setTimeout(() => {
+  toaster("Time up!");
+}, 3000);
+setTimeout(() => {
+  toaster("Focus mood off");
+}, 7000);
