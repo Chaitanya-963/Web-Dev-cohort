@@ -5,6 +5,7 @@ let emptyList = document.querySelector(".empty-list");
 let totalTasks = document.querySelector("#totalTasks");
 let completedTasks = document.querySelector("#completedTasks");
 
+
 function updateStats() {
   const task = document.querySelectorAll("#taskList li");
   const complete = document.querySelectorAll("#taskList .task-item.completed");
@@ -25,6 +26,7 @@ function addTask() {
   checkbox.className = "complete-checkbox";
   checkbox.addEventListener("click", function () {
     li.classList.toggle("completed");
+    saveTask();
     updateStats();
   });
 
@@ -36,11 +38,10 @@ function addTask() {
   delBtn.textContent = "Delete";
   delBtn.className = "delete-button";
   delBtn.addEventListener("click", function () {
+    saveTask();
     taskList.removeChild(li);
     updateStats();
   });
-
-
 
   li.appendChild(checkbox);
   li.appendChild(span);
@@ -50,6 +51,7 @@ function addTask() {
   input.value = "";
   updateStats();
 }
+
 addBtn.addEventListener("click", addTask);
 
 input.addEventListener("keypress", (e) => {
