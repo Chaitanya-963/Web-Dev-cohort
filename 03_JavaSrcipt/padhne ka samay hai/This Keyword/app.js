@@ -20,6 +20,8 @@ abcd();
 //    xyz();
 //   }
 // Or Agar aapko function ke andhar bhi this ki value obj rakhni hai to function ke andhar vale function ko hamesha arrow function bnano jise this ki value object rahegi
+
+
 let obj = {
   name: "Chaitanya",
   sayName: function () {
@@ -45,4 +47,3 @@ class Abcd {
 }
 
 let val = new Abcd();
-+

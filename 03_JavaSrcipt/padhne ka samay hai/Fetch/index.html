@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>User Card — Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 flex items-center justify-center min-h-screen p-6">
+  <main class="w-full max-w-md">
+    <article class="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6">
+      <div class="flex items-center space-x-4">
+        <img class="w-20 h-20 rounded-full ring-2 ring-indigo-500" src="https://i.pravatar.cc/150?img=3" alt="Avatar">
+        <div class="flex-1">
+          <h2 class="text-xl font-semibold text-gray-900 dark:text-gray-100">Jane Doe</h2>
+          <p class="text-sm text-gray-500 dark:text-gray-300">Product Designer</p>
+          <div class="mt-2">
+            <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">Product</span>
+            <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 ml-2">UI</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="mt-4 text-gray-600 dark:text-gray-300 text-sm">Passionate designer focused on crafting delightful user experiences. Loves Figma, prototyping and accessible interfaces.</p>
+
+      <div class="mt-4 flex items-center justify-between">
+        <div class="flex space-x-3">
+          <a href="#" class="inline-flex items-center px-3 py-1.5 bg-indigo-600 text-white text-sm font-medium rounded-md hover:bg-indigo-700">Follow</a>
+          <a href="#" class="inline-flex items-center px-3 py-1.5 border border-gray-200 text-sm rounded-md hover:bg-gray-50 dark:border-gray-700">Message</a>
+        </div>
+        <div class="text-sm text-gray-500 dark:text-gray-400">Joined Sep 2023</div>
+      </div>
+
+      <div class="mt-4 border-t pt-4 flex items-center justify-between text-sm text-gray-700 dark:text-gray-300">
+        <div class="flex items-center space-x-4">
+          <div class="text-center">
+            <div class="text-lg font-semibold">1.2k</div>
+            <div class="text-xs text-gray-500 dark:text-gray-400">Followers</div>
+          </div>
+          <div class="text-center">
+            <div class="text-lg font-semibold">342</div>
+            <div class="text-xs text-gray-500 dark:text-gray-400">Following</div>
+          </div>
+        </div>
+        <a href="#" class="text-indigo-600 dark:text-indigo-400 hover:underline">View profile</a>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
