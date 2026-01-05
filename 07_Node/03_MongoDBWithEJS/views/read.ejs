@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Project</title>
+</head>
+
+<body>
+    <div class="w-full h-screen bg-zinc-900 p-7 text-white">
+
+        <div class="nav mb-10">
+            <a class="text-blue-500" href="/">🔙 Back to Home</a>
+        </div>
+
+        <h1 class="text-3xl tracking-tighter mb-5">All Users</h1>
+        <div class="users flex gap-3 flex-wrap ">
+            <% if(users.length> 0) {%>
+                <% users.forEach(function(user){ %>
+                    <div class="user w-72 p-5 bg-zinc-800 rounded-lg">
+                        <div class="w-full h-52 rounded-lg bg-zinc-700 overflow-hidden">
+                            <img class="w-full h-full object-cover object-top" src="<%=user.image%>" alt="profileImg">
+                        </div>
+                        <h3 class="text-xl tracking-tighter mt-3">
+                            <%=user.name%>
+                        </h3>
+                        <h5 class="text-sm text-zinc-500">
+                            <%=user.email%>
+                        </h5>
+                        <div class="flex gap-3 mt-6">
+                            <a class="px-2 py-0.5 border-2 rounded-md bg-zinc-900 border-zinc-600 text-zinc-300"
+                                href="/edit/<%=user._id%>">Edit
+                                User</a>
+                            <a class="text-white border-2 rounded-md border-red-700 bg-red-500 px-2 py-0.5"
+                                href="/delete/<%=user._id%>">Delete
+                                User</a>
+                        </div>
+                    </div>
+                    <% })%>
+                        <%} else {%>
+                            <h3 class="text-zinc-700 m-10 uppercase">No User Yet..</h3>
+                            <%}%>
+        </div>
+    </div>
+</body>
+
+</html>
